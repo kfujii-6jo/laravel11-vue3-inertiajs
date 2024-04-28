@@ -8,7 +8,7 @@ const form = reactive({
 });
 
 const submitFunction = () => {
-    router.post("/inertia", form);
+    router.post("/api/inertia-test", form);
 };
 </script>
 
